@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(115, 146, 159);
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: right;
+
+}
+.parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+}
+.child1 {
+    grid-column: 1/span 1;
+    position: absolute;
+
+}
+
+.Name {
+    z-index: 4;
+    position: absolute;
+}
+
+.child1 img {
+    height: auto;
+    width: 100vh;
+    z-index: auto;
+    position: absolute;
+}
+
+
+.child2 {
+    grid-column: 2/span 1;
+}
+
+.child2 img {
+    height: auto;
+    width: 100vh;
+    z-index: auto;
+    position: absolute;
+}
+
+.Link {
+    z-index: 4;
+    position: relative;
+}
+
+p {
+    font-size: 50px;
+    color: whitesmoke;
+
+}
+
